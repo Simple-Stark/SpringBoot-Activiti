@@ -43,6 +43,25 @@
             <artifactId>activiti-spring-boot-starter-basic</artifactId>
             <version>6.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-image-generator</artifactId>
+            <version>6.0.0</version>
+        </dependency>
+
+        <!-- Activiti 流程图 -->
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-diagram-rest</artifactId>
+            <version>5.22.0</version>
+        </dependency>
+        <!-- Activiti 在线设计 -->
+        <dependency>
+            <groupId>org.activiti</groupId>
+            <artifactId>activiti-modeler</artifactId>
+            <version>5.22.0</version>
+        </dependency>
+
 
         <!-- mysql 连接驱动 -->
         <dependency>
