@@ -166,6 +166,17 @@
                     <exclude>**/*.ttf</exclude>
                 </excludes>
             </resource>
+            <!-- 解决字体文件加载失败的问题 -->
+            <resource>
+                <directory>src/main/resources</directory>
+                <filtering>false</filtering>
+                <includes>
+                    <include>**/*.woff</include>
+                    <include>**/*.woff2</include>
+                    <include>**/*.ttf</include>
+                </includes>
+            </resource>
+
             <resource>
                 <directory>src/main/resources</directory>
                 <filtering>true</filtering>
